@@ -1,0 +1,37 @@
+h1{
+    color: red;
+    font-size: 90px;
+    font-family: verdana;
+    text-align: center;
+}
+
+
+div {
+  display: flex;              /* Use flexbox layout */
+  justify-content: center;    /* Center the buttons horizontally */
+  align-items: center;        /* Center the buttons vertically (if needed) */
+  height: 100vh;              /* Optional: to center vertically relative to the viewport */
+}
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 20px;
+  }
+  .container{
+    text-align:center;
+  }
+ 
+  /* p{
+    margin-bottom: 20px;
+  } */
+
+  button{
+    margin-right: 10px;
+    display: block;
+  }
+  .buttons{
+    margin-top: 10px;
+  }
