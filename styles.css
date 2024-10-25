@@ -1,10 +1,24 @@
+body{
+    background-color: rgb(123, 154, 169); ;
+}
 h1{
-    color: red;
+    color: rgb(22, 52, 76);
     font-size: 90px;
     font-family: verdana;
     text-align: center;
 }
-
+h1{
+    color: rgb(22, 52, 76);
+    font-size: 90px;
+    font-family: verdana;
+    text-align: center;
+}
+h3{
+    color: rgb(63, 150, 193);
+    font-size: 60px;
+    font-family: verdana;
+    text-align: center;
+}
 
 div {
   display: flex;              /* Use flexbox layout */
@@ -35,3 +49,9 @@ div {
   .buttons{
     margin-top: 10px;
   }
+.ending{
+    text-align: center;
+    font-family: Verdana;
+    font-size: 10rem;
+    color: white;
+}
